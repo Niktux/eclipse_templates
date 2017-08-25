@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php" deleted="false" description="Unit test with data provider" enabled="true" name="data_provider">/**&#13;
+ * @dataProvider providerTest${Method}&#13;
+ */&#13;
+public function test${Method}()&#13;
+{&#13;
+    ${cursor}&#13;
+}&#13;
+&#13;
+public function providerTest${Method}()&#13;
+{&#13;
+    return [&#13;
+        [],&#13;
+    ];&#13;
+}&#13;
+    </template></templates>

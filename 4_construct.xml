@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php" deleted="false" description="Class with 4 fields intialized in construct" enabled="true" name="4_construct">private&#13;
+    $$${field_1},&#13;
+    $$${field_2},&#13;
+    $$${field_3},&#13;
+    $$${field_4};       &#13;
+        &#13;
+public function __construct(${type_1} $$${field_1}, ${type_2} $$${field_2}, ${type_3} $$${field_3}, ${type_4} $$${field_4})&#13;
+{&#13;
+    $$this-&gt;${field_1} = $$${field_1};&#13;
+    $$this-&gt;${field_2} = $$${field_2};&#13;
+    $$this-&gt;${field_3} = $$${field_3};&#13;
+    $$this-&gt;${field_4} = $$${field_4};    &#13;
+}</template></templates>

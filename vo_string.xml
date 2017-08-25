@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php" deleted="false" description="VO which wraps single string value" enabled="true" name="vo_string">use Puzzle\Pieces\ConvertibleToString;&#13;
+use Onyx\Domain\ValueObject;&#13;
+&#13;
+final class ${uppercase_VO} implements ValueObject, ConvertibleToString&#13;
+{&#13;
+    private&#13;
+        $$${lowercase_VO};&#13;
+&#13;
+    public function __construct(string $$${lowercase_VO})&#13;
+    {&#13;
+        $$this-&gt;${lowercase_VO} = $$${lowercase_VO};&#13;
+    }&#13;
+&#13;
+    public function value(): string&#13;
+    {&#13;
+        return $$this-&gt;${lowercase_VO};&#13;
+    }&#13;
+&#13;
+    public function equals(self $$${lowercase_VO}): bool&#13;
+    {&#13;
+        return $$this-&gt;${lowercase_VO} === $$${lowercase_VO}-&gt;value();&#13;
+    }&#13;
+&#13;
+    public function __toString(): string&#13;
+    {&#13;
+        return $$this-&gt;${lowercase_VO};&#13;
+    }&#13;
+}</template></templates>

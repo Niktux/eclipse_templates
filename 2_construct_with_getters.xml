@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php" deleted="false" description="Class with 2 fields initialized in constructor + their getters" enabled="true" name="2_construct_with_getters">private&#13;
+    $$${lowercase_field_1},&#13;
+    $$${lowercase_field_2};&#13;
+    &#13;
+public function __construct(${type_1} $$${lowercase_field_1}, ${type_2} $$${lowercase_field_2})&#13;
+{&#13;
+    $$this-&gt;${lowercase_field_1} = $$${lowercase_field_1};&#13;
+    $$this-&gt;${lowercase_field_2} = $$${lowercase_field_2};&#13;
+}&#13;
+&#13;
+public function get${uppercase_field_1}(): ${type_1}&#13;
+{&#13;
+    return $$this-&gt;${lowercase_field_1};&#13;
+}&#13;
+&#13;
+public function get${uppercase_field_2}(): ${type_2}&#13;
+{&#13;
+    return $$this-&gt;${lowercase_field_2};&#13;
+}&#13;
+&#13;
+${cursor}</template></templates>

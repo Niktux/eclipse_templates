@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php" deleted="false" description="Unit test case" enabled="true" name="testcase">declare(strict_types = 1);&#13;
+&#13;
+namespace ${class_namespace};&#13;
+&#13;
+use PHPUnit\Framework\TestCase;&#13;
+&#13;
+// FIXME remove .php&#13;
+class ${file} extends TestCase&#13;
+{&#13;
+    public function test${cursor}()&#13;
+    {&#13;
+&#13;
+    }&#13;
+}&#13;
+</template></templates>
