@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php" deleted="false" description="Class with 1 field initialized in constructor + its getter in VO style" enabled="true" name="1_construct_with_getter_VO">private
+    $$${lowercase_field_1};
+    
+public function __construct(${type_1} $$${lowercase_field_1})
+{
+    $$this-&gt;${lowercase_field_1} = $$${lowercase_field_1};
+}
+
+public function ${lowercase_field_1}(): ${type_1}
+{
+    return $$this-&gt;${lowercase_field_1};
+}
+
+${cursor}</template></templates>
